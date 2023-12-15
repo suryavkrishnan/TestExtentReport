@@ -27,8 +27,9 @@ public class ExtentReportDemo
 	@Test
 	public void initialDemo()
 	{
-		System.out.println("second commit");
+		System.out.println("second commit by first");
 		System.out.println("third commit by second person");
+		System.out.println("fourth commit by first  person");
 		
 		ExtentTest test=extent.createTest("Initial Demo");
 		System.setProperty("webdriver.chrome.driver","chromedriver.exe");
