@@ -27,6 +27,8 @@ public class ExtentReportDemo
 	@Test
 	public void initialDemo()
 	{
+		System.out.println("first commit");
+		
 		ExtentTest test=extent.createTest("Initial Demo");
 		System.setProperty("webdriver.chrome.driver","chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
