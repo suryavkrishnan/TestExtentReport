@@ -22,6 +22,11 @@ public class ExtentReportDemo
 		extent=new ExtentReports();
 		extent.attachReporter(report);//this is the exact class which create the extend report using the abouve spark class
 		extent.setSystemInfo("Tester", "Surya Krishnan");
+		
+		System.out.println("first  commit by develop branch");
+		System.out.println("second person  commit by develop branch");
+		System.out.println("first person  commit by develop branch");
+		System.out.println("second person  commit by develop branch");
 	}
 	
 	@Test
