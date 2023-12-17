@@ -26,6 +26,7 @@ public class ExtentReportDemo
 		System.out.println("first  commit by develop branch");
 		System.out.println("second person  commit by develop branch");
 		System.out.println("first person  commit by develop branch");
+		System.out.println("second person  commit by develop branch");
 	}
 	
 	@Test
