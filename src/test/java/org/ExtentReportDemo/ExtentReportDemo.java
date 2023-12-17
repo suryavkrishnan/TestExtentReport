@@ -24,6 +24,7 @@ public class ExtentReportDemo
 		extent.setSystemInfo("Tester", "Surya Krishnan");
 		
 		System.out.println("first  commit by develop branch");
+		System.out.println("second person  commit by develop branch");
 	}
 	
 	@Test
